@@ -1,0 +1,37 @@
+head
+    title Calculadora
+    link(href="css/style.css", rel="stylesheet")
+    link(href="css/normalize.css", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Arimo|Chathura:700|Lora", rel="stylesheet")
+
+body
+    .container
+        .visor
+            p#current 0
+            p#history 0
+        .ac
+            button.button#AC C
+        .row
+            button.button.num#1 1
+            button.button.num#2 2
+            button.button.num#3 3
+            button.button.math#mul ×
+        .row
+            button.button.num#4 4
+            button.button.num#5 5
+            button.button.num#6 6
+            button.button.math#div ÷
+        .row
+            button.button.num#7 7
+            button.button.num#8 8
+            button.button.num#9 9
+            button.button.math#minus -
+        .row
+            button.button.num#0 0
+            button.button.num#dec .
+            button.button.equals#equals =
+            button.button.math#plus +
+
+
+
+    script(src="js/calculadora.js")

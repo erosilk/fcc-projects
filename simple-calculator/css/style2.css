@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+body .container {
+  padding: 0px;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #ff412b;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFFF412B', endColorstr='#FFFFAC5B');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjEuMCIgeDI9IjEuMCIgeTI9IjAuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNDEyYiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmYWM1YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 100%, 100% 0%, color-stop(0%, #ff412b), color-stop(100%, #ffac5b));
+  background-image: -moz-linear-gradient(left bottom, #ff412b 0%, #ffac5b 100%);
+  background-image: -webkit-linear-gradient(left bottom, #ff412b 0%, #ffac5b 100%);
+  background-image: linear-gradient(to right top, #ff412b 0%, #ffac5b 100%);
+  -webkit-box-shadow: -1px 3px 17px -2px rgba(235, 106, 7, 0.28);
+  -moz-box-shadow: -1px 3px 17px -2px rgba(235, 106, 7, 0.28);
+  box-shadow: -1px 3px 17px -2px rgba(235, 106, 7, 0.28);
+}
+body .container .visor {
+  font-family: Chathura;
+  margin: 0px;
+  text-align: right;
+  font-size: 80px;
+}
+body .container .visor p {
+  margin: 0px 20px 0px 0px;
+  color: white;
+}
+body .container .visor #history {
+  font-size: 25px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+body .container .ac {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+body .container .ac .button {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  margin: 1px;
+  border-radius: 0px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+body .container .ac .button:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+body .container .ac .button:focus {
+  outline: 0;
+}
+body .container .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+body .container .row .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  width: 75px;
+  height: 75px;
+  border: 0;
+  border-radius: 0px;
+  font-size: 60px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: Chathura;
+}
+body .container .row .button:focus {
+  outline: 0;
+}
+body .container .row .button:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+body .container .row .buttonwide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-size: 20px;
+}

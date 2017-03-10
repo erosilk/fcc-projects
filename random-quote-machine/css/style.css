@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.border {
+  border: 1px solid red; }
+
+body {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1d1f21;
+  background-image: -webkit-linear-gradient( bottom , #1d1f21, #000000);
+  background-image: linear-gradient(to top, #1d1f21, #000000); }
+  body #container {
+    border: 1px color red;
+    min-height: 100vh;
+    max-width: 1024px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    body #container .quote {
+      background-color: #FAFAFA;
+      border-radius: 2px;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+      align-items: flex-start;
+      width: 70vh;
+      font-family: Crete Round;
+      font-size: 2rem;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-right: 20px;
+      transition: 1s; }
+      body #container .quote .quotetext p {
+        padding: 20px;
+        margin-top: 0px;
+        margin-bottom: -5px;
+        border-left: 2px solid #FF5722; }
+      body #container .quote .quotetext .fa {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: 30vh; }
+      body #container .quote .author {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        width: 68vh;
+        font-family: Crete Round;
+        font-size: 1.2rem;
+        padding-bottom: 10px; }
+    body #container .botones {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      width: 70vh;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      body #container .botones button.btn {
+        font-family: Raleway;
+        font-size: 1rem;
+        padding-top: 10px;
+        background-color: transparent;
+        border: 0;
+        color: white;
+        text-decoration: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; }
+        body #container .botones button.btn:focus {
+          outline: 0; }

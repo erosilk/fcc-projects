@@ -1,0 +1,111 @@
+body {
+  background-color: #231F20;
+  padding-bottom: 30px; }
+
+.streamimg {
+  border: 1px solid black;
+  margin-right: 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+
+#header {
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #C62828;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  #header #twitchlogo {
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 6em;
+    height: 4em; }
+  #header h1 {
+    color: #FAFAFA;
+    shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    font-family: Oswald; }
+
+#container {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 1024px;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: #FAFAFA;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  outline: 1px dashed rgba(198, 40, 40, 0.5);
+  outline-offset: -5px; }
+  #container .stream {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 1024px;
+    background-color: #C62828;
+    margin-top: 20px;
+    padding: 20px 0 20px 0;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 200px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: 1px solid #231F20; }
+    #container .stream .infocontainer {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 350px; }
+      #container .stream .infocontainer h1 {
+        -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        font-family: Oswald;
+        margin: 0;
+        color: white; }
+      #container .stream .infocontainer p {
+        color: white;
+        -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+        align-self: flex-end; }
+      #container .stream .infocontainer .user {
+        margin-top: -10px; }
+        #container .stream .infocontainer .user a {
+          text-decoration: none;
+          color: white; }
+      #container .stream .infocontainer .inlinestatus {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; }
+        #container .stream .infocontainer .inlinestatus .status {
+          border: 1px solid white;
+          padding: 5px 10px 5px 10px;
+          border-radius: 10px;
+          margin-top: 80px;
+          margin-right: 20px; }
+        #container .stream .infocontainer .inlinestatus .viewers {
+          margin-bottom: 1.25em; }

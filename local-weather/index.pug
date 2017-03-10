@@ -1,0 +1,22 @@
+html
+	head
+		link(rel='stylesheet' href='css/style.css')
+		link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css')
+		link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Crete+Round|Raleway|Roboto|Libre+Baskerville|Fjalla+One|Merriweather:700')
+		link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')
+		link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css')
+		title Local Weather
+
+	body#body
+		.container.animated.bounceIn
+			h1#titulo Local Weather
+			p#textlocation in 
+				strong#locationID Loading location...
+			hr
+			#weather
+				h1#weatherval.nomargin
+					#val -
+					a#tempunit(href="#") °C
+				p#weathermain.nomargin 
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+	script(type='text/javascript' src='js/script.js')

@@ -1,0 +1,76 @@
+@import "bourbon";
+@import "susy";
+@import "neat";
+
+.border
+  border: 1px solid red
+
+
+body
+  display: flex
+  justify-content: center
+  align-items: center
+  background-color: #1d1f21
+  @include background-image(linear-gradient(to top,  #1d1f21, #000000))
+  #container
+    border: 1px color red
+    min-height: 100vh
+    max-width: 1024px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    .quote
+      background-color: #FAFAFA
+      border-radius: 2px
+      display: flex
+      justify-content: center
+      align-items: flex-start
+      width: 70vh
+      font-family: Crete Round
+      font-size: 2rem
+      flex-direction: column
+      padding-right: 20px
+      transition: 1s
+      
+      .quotetext
+        p
+          padding: 20px
+          margin-top: 0px
+          margin-bottom: -5px
+          border-left: 2px solid #FF5722
+        .fa
+          display: flex
+          padding-top: 40px
+          padding-bottom: 40px
+          margin-left: 30vh
+          
+      .author
+        display: flex
+        justify-content: flex-end
+        width: 68vh
+        font-family: Crete Round
+        font-size: 1.2rem
+        padding-bottom: 10px
+
+    .botones
+      display: flex
+      width: 70vh
+      justify-content: space-between
+      button
+        &.btn
+          font-family: Raleway
+          font-size: 1rem
+          padding-top: 10px
+          background-color: transparent
+          border: 0
+          color: white
+          text-decoration: none
+          user-select: none
+          &:focus
+            outline: 0
+        
+        
+        
+
+    

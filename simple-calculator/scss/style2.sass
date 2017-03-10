@@ -1,0 +1,90 @@
+
+@import compass
+
+body
+	display: flex
+	justify-content: center
+	align-items: center
+	background-color: rgb(255, 255, 255)
+	height: 100vh
+	.container
+		padding: 0px
+		border-radius: 5px
+		width: 300px
+		background-color: rgb(255,65,43)
+		@include filter-gradient(#ff412b, #ffac5b, horizontal)
+		@include background-image(linear-gradient(left bottom, rgba(255,65,43,1) 0%,rgba(255,172,91,1) 100%))
+		-webkit-box-shadow: -1px 3px 17px -2px rgba(235,106,7,0.28)
+		-moz-box-shadow: -1px 3px 17px -2px rgba(235,106,7,0.28)
+		box-shadow: -1px 3px 17px -2px rgba(235,106,7,0.28)
+
+		.visor
+			font-family: Chathura
+			margin: 0px
+			text-align: right
+			font-size: 80px
+
+			p
+				margin: 0px 20px 0px 0px
+				color: white
+			#history
+				font-size: 25px
+				margin-top: -20px
+				margin-bottom: 20px
+
+
+		.ac
+			display: flex
+			flex-direction: row
+			justify-content: flex-end
+
+			.button
+				width: 100%
+				height: 50px
+				border: 0
+				margin: 1px
+				border-radius: 0px
+				font-size: 20px
+				color: white
+				background-color: rgba(255, 255, 255, 0.2)
+				&:active
+					background-color: rgba(255, 255, 255, 0.3)
+				&:focus
+					outline: 0
+
+
+		.row
+			display: flex
+			flex-direction: row
+			justify-content: center
+
+
+			.button
+				display: flex
+				justify-content: center
+				align-items: center
+				margin: 1px
+				width: 75px
+				height: 75px
+				border: 0
+				border-radius: 0px
+				font-size: 60px
+				color: white
+				background-color: rgba(255, 255, 255, 0.2)
+				font-family: Chathura
+
+				&:focus
+					outline: 0
+				&:active
+					background-color: rgba(255, 255, 255, 0.3)
+
+			.buttonwide
+				display: flex
+				justify-content: center
+				align-items: center
+				margin: 3px
+				width: 50px
+				height: 50px
+				border: 1px solid white
+				border-radius: 50px
+				font-size: 20px

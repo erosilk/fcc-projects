@@ -1,0 +1,60 @@
+
+$text-color: black
+
+
+body
+	display: flex
+	min-height: 100vh
+	justify-content: center
+	align-items: center
+	background-repeat: no-repeat
+	background-attachment: fixed
+	background-size: cover
+	transition: 1s
+	.container
+		border-radius: 5px
+		background-color: rgba(235,239,241,0.7)
+		padding: 30px 200px 30px 200px
+		display: flex
+		flex-direction: column
+		justify-content: center
+		align-self: center
+		height: 500px
+		transition: 0.5s
+		&:hover
+			background-color: rgba(235,239,241,0.9)
+		#titulo
+			font-family: Merriweather
+			font-size: 70px
+			text-align: center
+			margin: 0
+		#textlocation
+			font-family: Raleway
+			text-align: right
+			font-size: 30px
+			margin-bottom: 20px
+			margin-top: 0
+		hr
+			width: 100%
+		#weather
+			text-align: center
+			font-size: 90px
+			#weatherval
+				display: flex
+				justify-content: center
+				font-family: Arial
+				padding-left: 50px
+				#tempunit
+					font-size: 50px
+					text-decoration: none
+					color: $text-color
+					padding-top: 30px
+					align-self: baseline
+
+			#weathermain
+				font-size: 40px
+				font-family: Libre Baskerville
+			.nomargin
+				margin: 0
+				padding: 0
+

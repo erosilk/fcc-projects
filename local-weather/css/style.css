@@ -1,0 +1,74 @@
+body {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  transition: 1s; }
+  body .container {
+    border-radius: 5px;
+    background-color: rgba(235, 239, 241, 0.7);
+    padding: 30px 200px 30px 200px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    height: 500px;
+    transition: 0.5s; }
+    body .container:hover {
+      background-color: rgba(235, 239, 241, 0.9); }
+    body .container #titulo {
+      font-family: Merriweather;
+      font-size: 70px;
+      text-align: center;
+      margin: 0; }
+    body .container #textlocation {
+      font-family: Raleway;
+      text-align: right;
+      font-size: 30px;
+      margin-bottom: 20px;
+      margin-top: 0; }
+    body .container hr {
+      width: 100%; }
+    body .container #weather {
+      text-align: center;
+      font-size: 90px; }
+      body .container #weather #weatherval {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-family: Arial;
+        padding-left: 50px; }
+        body .container #weather #weatherval #tempunit {
+          font-size: 50px;
+          text-decoration: none;
+          color: black;
+          padding-top: 30px;
+          -webkit-align-self: baseline;
+          -ms-flex-item-align: baseline;
+          align-self: baseline; }
+      body .container #weather #weathermain {
+        font-size: 40px;
+        font-family: Libre Baskerville; }
+      body .container #weather .nomargin {
+        margin: 0;
+        padding: 0; }
